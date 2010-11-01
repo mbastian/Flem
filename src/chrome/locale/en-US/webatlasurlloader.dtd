@@ -1,0 +1,26 @@
+﻿<!ENTITY urlsBtn.label "URLs">
+<!ENTITY urlsBtn.tooltip "URLs">
+<!ENTITY openMenu.label "Open file">
+<!ENTITY resetMenu.label "Reset">
+<!ENTITY pasteClipBoard.label "Paste from clipboard">
+<!ENTITY delDoubleMenu.label "Remove duplicates">
+<!ENTITY exportUnvisitedMenu.label "Export unvisited">
+<!ENTITY exportAllMenu.label "Export all">
+<!ENTITY nextBtn.label "Next">
+<!ENTITY backBtn.label "Back">
+<!ENTITY addBtn.label "Add">
+<!ENTITY removeBtn.label "Remove">
+<!ENTITY slideshow.label "Slideshow">
+<!ENTITY slideshow.tooltip "URL slideshow">
+<!ENTITY startSlideshow.label "Start slideshow">
+<!ENTITY stopSlideshow.label "Stop slideshow">
+<!ENTITY configureSlideshow.label "Configure slideshow">
+<!ENTITY slideshow.dialog.save "Save">
+<!ENTITY slideshow.dialog.cancel "Cancel">
+<!ENTITY slideshow.dialog.interval "Interval:">
+<!ENTITY slideshow.dialog.interval.seconds "sec.">
+<!ENTITY slideshow.dialog.loop "Loop">
+<!ENTITY slideshow.dialog.innewtab "Open in new tab">
+<!ENTITY slideshow.dialog.waitendloading.interval "Limit:">
+<!ENTITY slideshow.dialog.timer.label "Timer">
+<!ENTITY slideshow.dialog.waitendloading.label "End page loading">

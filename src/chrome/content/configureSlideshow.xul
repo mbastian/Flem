@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://webatlasurlloader/locale/webatlasurlloader.dtd" >
+
+<dialog
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  id="flem-configureslideshow-dialog"
+  title="&configureSlideshow.label;"
+  onload="flem_urlSlideshow.loadDialogData(this);"
+  ondialogaccept="return flem_urlSlideshow.saveDialogData(this);"
+  persist="screenX screenY width height"
+  windowtype="myDialogWindowType">
+	
+	<script type="application/x-javascript" src="chrome://webatlasurlloader/content/webatlasurlloader.js"/>
+	
+	<dialogheader title="&slideshow.label;" description=""/>
+    <groupbox>
+		<vbox flex="1" >
+			<radiogroup flex="1" id="flem-configureslideshow-radio">
+				<radio id="flem-configureslideshow-dialog-timer" label="&slideshow.dialog.timer.label;" />
+				<hbox id="flem-configureslideshow-dialog-timer-config" align="center" >
+					<label value="&slideshow.dialog.interval;"/>
+					<textbox id="flem-configureslideshow-dialog-interval" width="50" />
+					<label value="&slideshow.dialog.interval.seconds;"/>
+				</hbox>
+				<radio id="flem-configureslideshow-dialog-waitendloading" label="&slideshow.dialog.waitendloading.label;" />
+				<hbox id="flem-configureslideshow-dialog-waitendloading-config" align="center">
+					<label value="&slideshow.dialog.waitendloading.interval;"/>
+					<textbox id="flem-configureslideshow-dialog-waitendloading-interval" width="50" />
+					<label value="&slideshow.dialog.interval.seconds;"/>
+				</hbox>
+			</radiogroup>
+		<checkbox id="flem-configureslideshow-dialog-loopcheckbox" flex="1" label="&slideshow.dialog.loop;" checked="false"/>
+		<checkbox id="flem-configureslideshow-dialog-innewtab" flex="1" label="&slideshow.dialog.innewtab;" checked="false" />
+		</vbox>
+    </groupbox>
+
+
+</dialog>

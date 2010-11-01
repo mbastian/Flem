@@ -1,0 +1,28 @@
+﻿<!ENTITY urlsBtn.label "URL">
+<!ENTITY urlsBtn.tooltip "URL">
+<!ENTITY openMenu.label "Ouvrir fichier">
+<!ENTITY resetMenu.label "Reset">
+<!ENTITY pasteClipBoard.label "Coller depuis presse-papiers">
+<!ENTITY delDoubleMenu.label "Supprimer doublons">
+<!ENTITY exportUnvisitedMenu.label "Exporter les URL non visitées">
+<!ENTITY exportAllMenu.label "Exporter tous">
+<!ENTITY nextBtn.label "Suiv.">
+<!ENTITY backBtn.label "Prec.">
+<!ENTITY addBtn.label "Ajouter">
+<!ENTITY removeBtn.label "Supprimer">
+<!ENTITY slideshow.label "Diaporama">
+<!ENTITY slideshow.tooltip "Diaporama d'URL">
+<!ENTITY startSlideshow.label "Démarrer diaporama">
+<!ENTITY stopSlideshow.label "Stopper diaporama">
+<!ENTITY configureSlideshow.label "Configurer diaporama">
+<!ENTITY slideshow.dialog.save "Sauvegarder">
+<!ENTITY slideshow.dialog.cancel "Annuler">
+<!ENTITY slideshow.dialog.interval "Intervalle :">
+<!ENTITY slideshow.dialog.interval.seconds "sec.">
+<!ENTITY slideshow.dialog.loop "Boucle">
+<!ENTITY slideshow.dialog.innewtab "Ouvrir dans un nouvel onglet">
+<!ENTITY slideshow.dialog.waitendloading.interval "Limite :">
+<!ENTITY slideshow.dialog.timer.label "Timer">
+<!ENTITY slideshow.dialog.waitendloading.label "Fin chargement page">
+
+

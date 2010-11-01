@@ -1,0 +1,68 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#webAtlasUrlLoader-toolbar
+{
+	background-color: #FFFFF5;
+
+}
+
+#webatlas-logo
+{
+	list-style-image : url(chrome://webatlasurlloader/skin/logo.png);
+}
+
+
+.urlloader-toolbar-button
+{
+    list-style-image: url("chrome://webatlasurlloader/skin/buttons.gif");
+}
+
+.urlloader-toolbar-button-disabled
+{
+    list-style-image: url("chrome://webatlasurlloader/skin/buttons-disabled.gif");
+}
+
+#urlloader-toolbar-prec
+{
+    -moz-image-region: rect(0 16px 16px 0px);
+}
+
+#urlloader-toolbar-next
+{
+    -moz-image-region: rect(0 32px 16px 16px);
+}
+
+#urlloader-toolbar-add
+{
+    -moz-image-region: rect(0 64px 16px 48px);
+}
+
+#urlloader-toolbar-remove
+{
+    -moz-image-region: rect(0 80px 16px 64px);
+}
+
+#url-info
+{
+	-moz-image-region: rect(0 48px 16px 32px);
+	height:16px;
+}
+
+.txtgreen
+{
+	-moz-appearance: none;
+	background-color:#E3F7DB;
+}
+
+.txtcurrent
+{
+	-moz-appearance: none;
+	font-weight:bold;
+}
+
+.combotitle
+{
+	-moz-appearance: none;
+	background-color:#B3E7FF;
+	font-weight:bold;
+}

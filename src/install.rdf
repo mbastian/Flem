@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!-- See license.txt -->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{f7c39bef-150a-a06c-8a2b-04fea4e6d717}</em:id>
+    <em:version>0.4.3</em:version>
+	<em:type>2</em:type>
+	<em:file>
+        <Description about="urn:mozilla:extension:file:webatlasurlloader.jar">
+            <em:package>content/webatlasurlloader/</em:package>
+			<em:skin>skin/classic/webatlasurlloader/</em:skin>
+			<em:locale>locale/en-US/webatlasurlloader/</em:locale>
+            <em:locale>locale/fr-FR/webatlasurlloader/</em:locale>
+        </Description>
+    </em:file>
+    <em:targetApplication>
+      <!-- Firefox -->
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <!-- front-end metadata -->
+	<em:localized>
+      <Description>
+        <em:locale>fr-FR</em:locale>
+        <em:name>Flem</em:name>
+        <em:description>Flem est une barre d'outils qui permet de charger des fichiers d'URLs CSV ou TXT et de naviguer d'une à l'autre très facilement. Possibilité de créer un diaporama d'URLs.</em:description>
+		<em:creator>Mathieu BASTIAN</em:creator>
+	<em:contributor>Mathieu JACOMY</em:contributor>
+    <em:homepageURL>https://addons.mozilla.org/firefox/addon/6321</em:homepageURL>
+	<em:iconURL>chrome://webatlasurlloader/content/icon.png</em:iconURL>
+      </Description>
+    </em:localized>
+
+    <em:name>Flem</em:name>
+    <em:description>Flem is a tiny Firefox toolbar extension designed for Web-Explorators. You can load your urls file lists into the toolbar and navigate from one to another very easylee. You can also use Flem as an url slideshow.</em:description>
+    <em:creator>Mathieu BASTIAN</em:creator>
+	<em:contributor>Mathieu JACOMY</em:contributor>
+    <em:homepageURL>https://addons.mozilla.org/firefox/addon/6321</em:homepageURL>
+	<em:iconURL>chrome://webatlasurlloader/content/icon.png</em:iconURL>
+  </Description>
+</RDF>

@@ -1,0 +1,15 @@
+Flem is a tiny Firefox toolbar designed to manage big URLs lists and navigate from one URL to another. Released under MPL license.
+
+Features
+
+* Import coma-separated CSV or TXT text files. CSV could be obtained from Excel.
+* Import URL in any text file, without the coma-separated form. Actually Flem retrieves URLs from any file format (like HTML).
+* Import URLs from clipboard.
+* Navigate through your URLs with the 'Next' and 'Back' button or with the combo box. The visited URLs are shown in greeen color.
+* Add and remove URLs from playlist. Add button adds the current URL in the playlist. Save and share your playlist. Useful for web sourcing.
+* Open URLs in a new tab with Control/Command key.
+* See the other datas the file contains, so you can see directly your notes about the URL. Move your mouse on the '!' mark on the right of the toolbar.
+* Export all or only non-visited URLs.
+* Auto navigation through the URLs list. As a slideshow you can set an interval between each URL loading.
+* Crawl mode, Flem load completely each page and go next. Set a timing limit, when the webpage don't answer.
+* Languages supported : English, French

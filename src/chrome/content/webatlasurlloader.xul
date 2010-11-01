@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://webatlasurlloader/skin/webatlasurlloader.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://webatlasurlloader/locale/webatlasurlloader.dtd" >
+
+<overlay id="webatlasurlloader" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<script type="application/x-javascript" src="chrome://webatlasurlloader/content/webatlasurlloader.js"/>
+
+<stringbundleset id="stringbundleset">
+   <stringbundle id="flem-string-bundle" src="chrome://webatlasurlloader/locale/webatlasurlloader.properties"/>
+ </stringbundleset>
+
+<toolbox id="navigator-toolbox">
+	<toolbar class="chromeclass-toolbar" collapsed="false" context="toolbar-context-menu" customizable="true" grippytooltiptext="" hidden="false" id="webAtlasUrlLoader-toolbar" inherits="collapsed,hidden" mode="full" persist="collapsed,hidden" toolbarname="Flem">
+		<toolbaritem>
+			<image id="webatlas-logo"/>
+		</toolbaritem>
+		<toolbarbutton label="&urlsBtn.label;" id="urlloader-toolbar-urls" tooltiptext="&urlsBtn.tooltip;" type="menu">
+            <menupopup>
+                <menuitem label="&openMenu.label;" id="urlloader-toolbar-ouvrir" oncommand="flem_urlLoader.openFile()"/>
+                <menuitem label="&resetMenu.label;" id="urlloader-toolbar-reset"  oncommand="flem_urlLoader.reset()"/>
+				<menuitem label="&pasteClipBoard.label;" id="urlloader-toolbar-clipboard"  oncommand="flem_urlLoader.pasteFromClipboard()"/>
+				<menuseparator />
+				<menuitem label="&delDoubleMenu.label;" id="urlloader-toolbar-deldoublons"  oncommand="flem_urlLoader.delDouble()"/>
+				<menuseparator />
+				<menuitem label="&exportAllMenu.label;" id="urlloader-toolbar-exportAll" oncommand="flem_urlLoader.exportAll()"/>
+				<menuitem label="&exportUnvisitedMenu.label;" id="urlloader-toolbar-exportUnvisited" oncommand="flem_urlLoader.exportUnvisited()"/>
+            </menupopup>
+        </toolbarbutton>
+		<toolbarseparator />
+		<toolbarbutton label="&slideshow.label;" id="urlloader-toolbar-slideshow" tooltiptext="&slideshow.tooltip;" type="menu">
+            <menupopup>
+                <menuitem label="&startSlideshow.label;" id="urlloader-toolbar-startslideshow" oncommand="flem_urlSlideshow.startSlideshow()"/>
+				<menuitem label="&stopSlideshow.label;" id="urlloader-toolbar-stopslideshow" oncommand="flem_urlSlideshow.stopSlideshow()"/>
+				<menuseparator />
+				<menuitem label="&configureSlideshow.label;" id="urlloader-toolbar-configureslideshow"  oncommand="flem_urlSlideshow.configureSlideshow()"/>
+            </menupopup>
+        </toolbarbutton>
+		<toolbarseparator />
+		<toolbarbutton class="urlloader-toolbar-button" id="urlloader-toolbar-add" tooltiptext="&addBtn.label;" label="&addBtn.label;" oncommand="flem_urlView.addUrl(event)" />
+		<toolbarbutton class="urlloader-toolbar-button" id="urlloader-toolbar-remove" tooltiptext="&removeBtn.label;" label="&removeBtn.label;" oncommand="flem_urlView.removeUrl(event)" />
+		<toolbarseparator />
+		<menulist id="urlloader-combobox"  flex="1" oncommand="flem_urlView.selectUrl(event)">
+			<menupopup id="urlloader-combo">
+
+			</menupopup>
+		</menulist>
+		
+		<toolbarbutton class="urlloader-toolbar-button" id="urlloader-toolbar-prec" label="&backBtn.label;" oncommand="flem_urlView.getPrec(event, false)" />
+		<toolbarbutton class="urlloader-toolbar-button" id="urlloader-toolbar-next" label="&nextBtn.label;" oncommand="flem_urlView.getNext(event, false)" />
+		
+		<popupset>
+			<tooltip id="commtip" orient="vertical" noautohide="true" style="background-color: #33DD00;" onpopupshowing="return flem_urlView.fillTooltip();">
+		</tooltip>
+		</popupset>
+		<toolbaritem>
+			<image class="urlloader-toolbar-button" id="url-info"  tooltip="commtip"/>
+		</toolbaritem>
+	</toolbar>
+</toolbox>
+
+</overlay>
+
+

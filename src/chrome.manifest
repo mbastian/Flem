@@ -1,0 +1,5 @@
+content webatlasurlloader jar:chrome/webatlasurlloader.jar!/content/
+skin webatlasurlloader classic/1.0 jar:chrome/webatlasurlloader.jar!/skin/classic/webatlasurlloader/
+locale webatlasurlloader en-US jar:chrome/webatlasurlloader.jar!/locale/en-US/
+locale webatlasurlloader fr-FR jar:chrome/webatlasurlloader.jar!/locale/fr-FR/
+overlay chrome://browser/content/browser.xul chrome://webatlasurlloader/content/webatlasurlloader.xul
