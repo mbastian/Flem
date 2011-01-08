@@ -5,7 +5,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>{f7c39bef-150a-a06c-8a2b-04fea4e6d717}</em:id>
-    <em:version>0.4.3</em:version>
+    <em:version>0.4.4</em:version>
 	<em:type>2</em:type>
 	<em:file>
         <Description about="urn:mozilla:extension:file:webatlasurlloader.jar">
